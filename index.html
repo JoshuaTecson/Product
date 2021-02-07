@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<Style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+}
+
+#header-img {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+}
+
+#title {
+  font-family: courier;
+  position: absolute;
+  top: 70px;
+  right: 1340px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+  padding: 20px 20px 20px 20px;
+  width: 68%;
+  overflow: hidden;
+  top: 50%;
+  right: 50%;
+  transform: translate(-125%, -10%);
+  border: 2px solid darkblue;
+  border-radius: 20%;
+  border-width:5px; 
+  background-color: skyblue;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: row;
+  font-weight: 300;
+  margin: 0px 10px;
+  position: relative;
+  font-family: couriernew;
+}
+
+body {
+  text-align: center;
+  padding: 120px;
+  margin: 50px;
+  background-color: #99ffff;
+}
+
+.font-helvetica{
+  font-family: 'Brush Script MT', cursive;
+  text-align: center;
+  padding: 10px;
+  margin: 50px;
+}
+
+input:invalid {
+    border-color: red;
+}
+input,
+input:valid {
+    border-color: #ccc;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  background-color: #f1f1f1;
+}
+.grid-container > div {
+  background-color: #f1f1f1;
+  width: 600px;
+  margin: 10px;
+  text-align: center;
+  line-height: 500px;
+  font-size: 30px;
+  border: 3px solid black;
+  background-color: lightblue;
+}
+
+@media (max-height: 300px) {
+  .nav-bar li {
+    width: 500px;
+    border-bottom: none;
+    height: 10px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+
+  .nav-bar li {
+    display: inline-block;
+    margin-right: -2px;
+  }
+  
+</style>
+ <title>Product Landing Page</title>
+<header id="header">
+  <nav class="nav-bar" id="nav-bar">
+    <ul class="nav-links">
+      <li><a class="nav-link" href="#Our Company">Our Company</a></li>
+      <li><a class="nav-link" 
+ href="#Vehicles">Vehicles</a></li>
+<li><a class="nav-link" 
+ href="#Location">Location</a></li>
+    </ul>
+  </nav>
+    <img id="header-img" src="https://www.carlogos.org/logo/Chrysler-logo-1998-1920x1080.png" alt="Chrysler" height="80" width="150"><label id="title"><b>JT Imports Company</b></label>
+</header>
+
+
+<body>
+  <h2 id="Our Company" class="font-helvetica">Our Company</h2>
+    <p class="font-helvetica"><b>JT Imports Company</b> is the <b>#1 car Importer in Luzon,</b> founded in year 2020 <b>JT Imports Company</b> provides imported <b>Top of the line High-end Vehicles</b>, and <b>Armored Vehicles Vehicles</b>.We are also accepting custom vehicles. </p>
+
+      <h2 id="Vehicles" class="font-helvetica">Vehicles</h2>
+    <div class="grid-container">
+      <div>ARMORED</div>
+      <div>HIGH END</div>
+      <div>SPORTS CAR</div>
+    </div>
+  <br>
+  <iframe width="690" height="388" src="https://www.youtube.com/embed/ERYuK3WTWeM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   
+      <h2 id="Location" class="font-helvetica">Location</h2>
+  <p class="font-helvetica"><b>Main Office:</b> 543 JT Towers Bonifacio Global City Philippines 
+    <br>
+    <br> <b>Showrooms:</b>
+    <br> <b>North Luzon:</b> 67 J Highway San Quintin, Pangasinan
+    <br> <b>Metro Manila:</b> 876 EDSA cor. Quezon Avenue, Quezon City Metro Manila
+  </p>
+    <p class="font-helvetica">Qoutation Request form </p>
+
+   <form name="Login Form" action="login.php">
+  Your Name* 
+  <br>
+  <input type="text"name="Username" style="width: 20%">
+  <br>
+  <br>
+  Email*
+  <br> 
+  <input type="text"name="Email" style="width: 20%">
+  <br>
+  <br>
+  Contact No.*
+  <br> 
+  <input type="text"name="Contact No.">
+  <br>
+  <br>
+  Message*
+  <br> 
+  <input type="text"name="essage" class="txtbox">
+  <br>
+  <br>
+  Required field*
+  <br>
+  <input type="submit">
+  <br>
+  <br>
+    
+      <br><br>
+</body>
